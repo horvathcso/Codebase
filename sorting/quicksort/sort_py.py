@@ -51,7 +51,7 @@ def quicksort(A, lo, hi):
     a basic python implementation of the quick sort algorithms
         Based on the English wikipedia quicksort page
         used partitioning: Hoare
-  '''
+    '''
     if lo >= 0 and hi >= 0 and lo < hi:
         p = partition(A, lo, hi)
         quicksort(A, lo, p)
